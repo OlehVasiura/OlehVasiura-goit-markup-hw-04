@@ -54,14 +54,13 @@ img {
 /* -----------------common -------------- */
 .conteiner {
   width: 1158px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  padding: 0 12px;
+  padding: 0 15px;
   margin: 0 auto;
   /* display: flex;
   justify-content: center;
   text-align: center; */
 }
+
 .section {
   padding: 120px 0;
 }
@@ -156,10 +155,15 @@ img {
 
 /* ------------HERO---------------------- */
 .hero {
-  background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/people-office.jpg);
+  background-color: #2e2f42;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-size: 56px;
