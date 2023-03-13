@@ -284,7 +284,45 @@ img {
   line-height: 1.5;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+.social-list-item {
+
+}
+.social-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background:var(--accent);
+border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404BBF;
+}
+
+.social-list-icon {
+  fill: var(--primery-btn-color);
+
+}
+
+/*-------------- Section customers ----------*/
+.customers-list {
+
+}
+.customers-item {
+
+}
+
 
 /*----------------- Footer------------ */
 .appeal {
