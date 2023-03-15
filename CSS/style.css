@@ -15,7 +15,7 @@
   --title-text-color: #434455;
   --accent: #4d5ae5;
   --primary-white-color: #ffffff;
-  --primery-btn-color: #f4f4fd;
+  --primary-btn-color: #f4f4fd;
 }
 
 p,
@@ -56,10 +56,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: center;
-  text-align: center; */
-}
+ }
 
 .section {
   padding: 120px 0;
@@ -159,14 +156,12 @@ img {
 .contact-link:focus {
   color: var(--accent);
 }
-section
 /* ------------HERO---------------------- */
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-   rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
   url(../images/people-office.jpg);
   background-color: #2e2f42;
   background-repeat: no-repeat;
@@ -192,14 +187,14 @@ section
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primery-btn-color);
+  color: var(--primary-btn-color);
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
   padding: 16px 32px;
   border: none;
-}
+ }
 .button-hero:hover,
 .button-hero:focus {
   color: #404bbf;
@@ -254,7 +249,7 @@ section
 /* /* ----------------------section-team -----------*/
 
 .section-team {
-  background: var(--primery-btn-color);
+  background: var(--primary-btn-color);
 }
 .list-team {
   display: flex;
@@ -312,7 +307,7 @@ border-radius: 50%;
 }
 
 .social-list-icon {
-  fill: var(--primery-btn-color);
+  fill: var(--primary-btn-color);
 
 }
 /* .social-list-link:hover .social-list-icon,
@@ -373,7 +368,7 @@ height: 56px;
   margin-bottom: 16px;
 }
 .logo-second {
-  color: var(--primery-btn-color);
+  color: var(--primary-btn-color);
 }
 .appeal-text {
   font-size: 16px;
@@ -393,7 +388,7 @@ height: 56px;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent);
-  background: var(--primery-btn-color);
+  background: var(--primary-btn-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
