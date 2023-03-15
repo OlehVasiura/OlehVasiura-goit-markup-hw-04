@@ -159,7 +159,7 @@ img {
 .contact-link:focus {
   color: var(--accent);
 }
-
+section
 /* ------------HERO---------------------- */
 .hero {
   padding-top: 188px;
@@ -286,6 +286,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+/* -------------------social-icon------------------- */
 .social-list {
   display: flex;
   justify-content: center;
@@ -314,12 +315,42 @@ border-radius: 50%;
   fill: var(--primery-btn-color);
 
 }
+/* .social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: #434455;
+} */
 
 /*-------------- Section customers ----------*/
 .customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 
 }
 .customers-item {
+display: flex;
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+
+justify-content: center;
+align-items: center;
+
+}
+.customers-item-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 104px;
+height: 56px;
+
+
+
+}
+.customers-item-icon {
+  fill:#8E8F99;
 
 }
 
