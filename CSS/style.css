@@ -221,7 +221,7 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.list-benefit-item {
+.list-benefit-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -329,7 +329,6 @@ width: 168px;
 height: 88px;
 border: 1px solid #8E8F99;
 border-radius: 4px;
-
 justify-content: center;
 align-items: center;
 
@@ -340,16 +339,17 @@ justify-content: center;
 align-items: center;
 width: 104px;
 height: 56px;
-
-
-
 }
+
 .customers-item-icon {
   fill:#8E8F99;
 
 }
 
-
+.customers-item-icon:hover,
+.customers-item-icon:focus {
+  
+}
 /*----------------- Footer------------ */
 .appeal {
   background: var(--primary-text-color);
