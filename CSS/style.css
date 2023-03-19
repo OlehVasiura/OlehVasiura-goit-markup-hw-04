@@ -56,6 +56,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+ 
  }
 
 .section {
@@ -348,15 +349,22 @@ height: 56px;
 
 .customers-item-icon:hover, 
 .customers-item-icon:focus  {
- fill: #404BBF; 
+fill: #404BBF; 
 }
 /*----------------- Footer------------ */
 .appeal {
+  display: flex;
   background: var(--primary-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
+.footer-conteiner {
+display: flex;
+}
+.first-appeal {
+width: 264px;
+margin-right: 120px;
+}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -366,9 +374,17 @@ height: 56px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: block;
+  
 }
 .logo-second {
   color: var(--primary-btn-color);
+}
+.footer-media {
+  justify-content: center;
+  width: 208px;
+  height: 80px;
+
 }
 .appeal-text {
   font-size: 16px;
@@ -376,7 +392,34 @@ height: 56px;
   color: #e7e9fc;
   letter-spacing: 0.02em;
   width: 264px;
+    }
+  .sociale-medeia-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+
+color: #FFFFFF;
   }
+  .footer-sociale-list {
+  display: flex;
+    gap: 16px;
+  }
+  .footer-item {
+
+  }
+.footer-sociale-link {
+  display: inline-block;
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+}
+.footer-sociale-icon {
+  
+}
 
 /* -------------Button---------------- */
 .button {
