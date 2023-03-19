@@ -346,9 +346,9 @@ height: 56px;
 
 }
 
-.customers-item-icon:hover,
-.customers-item-icon:focus {
-  
+.customers-item-icon:hover, .customers-item-icon
+.customers-item-icon:focus .customers-item-icon {
+ fill: #404BBF; 
 }
 /*----------------- Footer------------ */
 .appeal {
